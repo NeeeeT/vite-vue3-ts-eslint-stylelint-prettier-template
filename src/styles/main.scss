@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+// specific html tag settings
+img,
+a,
+iframe,
+video,
+canvas {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
